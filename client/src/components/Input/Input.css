@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    border-top: 1px solid #D3D3D3;
+  }
+  
+  .input {
+    border: none;
+    padding: 2%;
+    width: 80%;
+    font-size: 1em;
+  }
+  
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+  }
+  
+  .sendButton {
+    color: white;
+    text-decoration: none;
+    background: darkgreen;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    width: 20%;
+  }
